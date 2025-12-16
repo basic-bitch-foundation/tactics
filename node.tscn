@@ -1,0 +1,232 @@
+[gd_scene load_steps=10 format=3 uid="uid://dosglrmm0vyfc"]
+
+[ext_resource type="Script" uid="uid://06myackh3e8v" path="res://node.gd" id="1_l6pdb"]
+[ext_resource type="Texture2D" uid="uid://bvmgv58j4ma27" path="res://tactic-assets/mainbg.png" id="2_r657h"]
+[ext_resource type="Texture2D" uid="uid://dk1aok6gnvrgj" path="res://tactic-assets/secondbg.png" id="3_f0urt"]
+[ext_resource type="Texture2D" uid="uid://bbab5mby2a3ll" path="res://tactic-assets/msc-bg.png" id="4_jfkdj"]
+[ext_resource type="Texture2D" uid="uid://b7wc14tnfwoj4" path="res://tactic-assets/score-y.png" id="5_wt6go"]
+[ext_resource type="Texture2D" uid="uid://cfq2a2ucomu17" path="res://colon.png" id="6_436f3"]
+[ext_resource type="Texture2D" uid="uid://5da2rydrrkvx" path="res://tactic-assets/score-x.png" id="7_bcos8"]
+[ext_resource type="Texture2D" uid="uid://crqhfv3fix8s2" path="res://tactic-assets/empty-board.png" id="8_cmsyx"]
+[ext_resource type="Texture2D" uid="uid://s5wih558h14g" path="res://tactic-assets/i-button.png" id="9_r657h"]
+
+[node name="Node" type="Node2D"]
+script = ExtResource("1_l6pdb")
+
+[node name="bg" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = -64.0
+offset_top = -111.0
+offset_right = 103.0
+offset_bottom = 139.0
+texture = ExtResource("2_r657h")
+metadata/_edit_lock_ = true
+
+[node name="bg_small" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = -12.0
+offset_top = -32.0
+offset_right = 49.0
+offset_bottom = 50.0
+texture = ExtResource("3_f0urt")
+metadata/_edit_lock_ = true
+
+[node name="scoreboard" type="Node2D" parent="."]
+
+[node name="playero" type="Node2D" parent="scoreboard"]
+
+[node name="scoredigit1" type="Sprite2D" parent="scoreboard/playero"]
+z_index = 1
+texture_filter = 1
+position = Vector2(0, -78)
+
+[node name="scoredigit2" type="Sprite2D" parent="scoreboard/playero"]
+z_index = 1
+texture_filter = 1
+position = Vector2(6, -78)
+
+[node name="bg" type="Sprite2D" parent="scoreboard/playero"]
+texture_filter = 1
+position = Vector2(-1, -77)
+scale = Vector2(1.5434781, 1.1666666)
+texture = ExtResource("4_jfkdj")
+metadata/_edit_lock_ = true
+
+[node name="o_sign" type="Sprite2D" parent="scoreboard/playero"]
+texture_filter = 1
+position = Vector2(-10.000001, -78.3125)
+scale = Vector2(1.1785716, 1.0416669)
+texture = ExtResource("5_wt6go")
+
+[node name="colon" type="Sprite2D" parent="scoreboard/playero"]
+z_index = 1
+texture_filter = 1
+position = Vector2(-4, -78)
+texture = ExtResource("6_436f3")
+
+[node name="playerx" type="Node2D" parent="scoreboard"]
+z_index = 1
+texture_filter = 1
+
+[node name="scoredigit1" type="Sprite2D" parent="scoreboard/playerx"]
+z_index = 1
+position = Vector2(36, -78)
+
+[node name="scoredigit2" type="Sprite2D" parent="scoreboard/playerx"]
+z_index = 1
+position = Vector2(42, -78)
+
+[node name="bg" type="Sprite2D" parent="scoreboard/playerx"]
+texture_filter = 1
+position = Vector2(35, -77)
+scale = Vector2(1.5, 1.1666666)
+texture = ExtResource("4_jfkdj")
+metadata/_edit_lock_ = true
+
+[node name="x_sign" type="Sprite2D" parent="scoreboard/playerx"]
+position = Vector2(26, -78)
+texture = ExtResource("7_bcos8")
+
+[node name="colon" type="Sprite2D" parent="scoreboard/playerx"]
+position = Vector2(32, -78)
+texture = ExtResource("6_436f3")
+
+[node name="turn_indi" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="turn_indi"]
+texture_filter = 1
+position = Vector2(18, -14.000001)
+scale = Vector2(1.3333333, 1.2857143)
+
+[node name="timer" type="Node2D" parent="."]
+position = Vector2(8, 0)
+
+[node name="clock_icon" type="Sprite2D" parent="timer"]
+z_index = 1
+texture_filter = 1
+position = Vector2(7, -55)
+scale = Vector2(0.5769231, 0.5769231)
+
+[node name="dig1" type="Sprite2D" parent="timer"]
+z_index = 1
+texture_filter = 1
+position = Vector2(12, -55)
+
+[node name="dig2" type="Sprite2D" parent="timer"]
+z_index = 1
+texture_filter = 1
+position = Vector2(17, -55)
+
+[node name="colon" type="Sprite2D" parent="timer"]
+z_index = 1
+texture_filter = 1
+position = Vector2(21, -55)
+texture = ExtResource("6_436f3")
+
+[node name="dig3" type="Sprite2D" parent="timer"]
+z_index = 1
+texture_filter = 1
+position = Vector2(25, -55)
+
+[node name="dig4" type="Sprite2D" parent="timer"]
+z_index = 1
+texture_filter = 1
+position = Vector2(30, -55)
+
+[node name="bg" type="Sprite2D" parent="timer"]
+texture_filter = 1
+position = Vector2(19, -54)
+scale = Vector2(1.9456522, 1.4166666)
+texture = ExtResource("4_jfkdj")
+
+[node name="CountdownTimer" type="Timer" parent="timer"]
+autostart = true
+
+[node name="Node2D" type="Node2D" parent="."]
+z_index = 1
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Node2D"]
+
+[node name="TextureButton" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton2" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_left = 12.0
+offset_right = 25.0
+offset_bottom = 13.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton3" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_left = 24.0
+offset_right = 37.0
+offset_bottom = 13.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton4" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_top = 12.0
+offset_right = 13.0
+offset_bottom = 25.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton5" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 25.0
+offset_bottom = 25.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton6" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_left = 24.0
+offset_top = 12.0
+offset_right = 37.0
+offset_bottom = 25.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton7" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_top = 24.0
+offset_right = 13.0
+offset_bottom = 37.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton8" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_left = 12.0
+offset_top = 24.0
+offset_right = 25.0
+offset_bottom = 37.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="TextureButton9" type="TextureButton" parent="Node2D"]
+texture_filter = 1
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 37.0
+offset_bottom = 37.0
+texture_normal = ExtResource("8_cmsyx")
+
+[node name="i_button" type="TextureButton" parent="."]
+texture_filter = 1
+offset_left = -10.000001
+offset_top = -62.000004
+offset_right = 6.999999
+offset_bottom = -43.000004
+scale = Vector2(0.9, 0.9)
+texture_normal = ExtResource("9_r657h")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="cursor" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="cursor"]
