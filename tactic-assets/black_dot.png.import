@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dh6eolecpd4to"
-path="res://.godot/imported/empty-cursor.png-d9de534cbdb0272b3f407d5b6a4d9891.ctex"
+uid="uid://cauxi0rociypg"
+path="res://.godot/imported/black_dot.png-86ee88688d6650a5066e6826adadfd93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tactic-assets/empty-cursor.png"
-dest_files=["res://.godot/imported/empty-cursor.png-d9de534cbdb0272b3f407d5b6a4d9891.ctex"]
+source_file="res://tactic-assets/black_dot.png"
+dest_files=["res://.godot/imported/black_dot.png-86ee88688d6650a5066e6826adadfd93.ctex"]
 
 [params]
 

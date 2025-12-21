@@ -1,0 +1,576 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq7y1j0g01wqk"]
+
+[ext_resource type="Script" uid="uid://cxhbl501xx654" path="res://dot_and_boxes.gd" id="1_yowkn"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_yowkn")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Grid" type="Node2D" parent="."]
+
+[node name="Boxes" type="Node2D" parent="Grid"]
+
+[node name="ColorRect" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect2" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect3" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect4" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect5" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect6" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect7" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect8" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect9" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect10" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect11" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect12" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect13" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect14" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect15" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect16" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect17" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect18" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect19" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect20" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect21" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect22" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect23" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect24" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect25" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect26" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect27" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect28" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect29" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect30" type="ColorRect" parent="Grid/Boxes"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Dots" type="Node2D" parent="Grid"]
+
+[node name="ColorRect" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect2" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect3" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect4" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect5" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect6" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect7" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect8" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect9" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect10" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect11" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect12" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect13" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect14" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect15" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect16" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect17" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect18" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect19" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect20" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect21" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect22" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect23" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect24" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect25" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect26" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect27" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect28" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect29" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect30" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect31" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect32" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect33" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect34" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect35" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect36" type="ColorRect" parent="Grid/Dots"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Lines" type="Node2D" parent="Grid"]
+
+[node name="H_lines" type="Node2D" parent="Grid/Lines"]
+
+[node name="ColorRect" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect2" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect3" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect4" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect5" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect6" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect7" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect8" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect9" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect10" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect11" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect12" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect13" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect14" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect15" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect16" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect17" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect18" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect19" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect20" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect21" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect22" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect23" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect24" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect25" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect26" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect27" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect28" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect29" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect30" type="ColorRect" parent="Grid/Lines/H_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="V_lines" type="Node2D" parent="Grid/Lines"]
+
+[node name="ColorRect" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect2" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect3" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect4" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect5" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect6" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect7" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect8" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect9" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect10" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect11" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect12" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -64.0
+offset_top = 31.0
+offset_right = -24.0
+offset_bottom = 71.0
+
+[node name="ColorRect13" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -66.0
+offset_top = 5.0
+offset_right = -26.0
+offset_bottom = 45.0
+
+[node name="ColorRect14" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -67.0
+offset_top = -9.0
+offset_right = -27.0
+offset_bottom = 31.0
+
+[node name="ColorRect15" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -41.0
+offset_top = 25.0
+offset_right = -1.0
+offset_bottom = 65.0
+
+[node name="ColorRect16" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -21.0
+offset_top = -29.0
+offset_right = 19.0
+offset_bottom = 11.0
+
+[node name="ColorRect17" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -44.0
+offset_top = -27.0
+offset_right = -4.0
+offset_bottom = 13.0
+
+[node name="ColorRect18" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = 28.0
+offset_top = -20.0
+offset_right = 68.0
+offset_bottom = 20.0
+
+[node name="ColorRect19" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = 46.0
+offset_top = -34.0
+offset_right = 86.0
+offset_bottom = 6.0
+
+[node name="ColorRect20" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -69.0
+offset_top = 10.0
+offset_right = -29.0
+offset_bottom = 50.0
+
+[node name="ColorRect21" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -92.0
+offset_top = -3.0
+offset_right = -52.0
+offset_bottom = 37.0
+
+[node name="ColorRect22" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = 51.0
+offset_top = -37.0
+offset_right = 91.0
+offset_bottom = 3.0
+
+[node name="ColorRect23" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = 8.0
+offset_top = 19.0
+offset_right = 48.0
+offset_bottom = 59.0
+
+[node name="ColorRect24" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = 51.0
+offset_top = 23.0
+offset_right = 91.0
+offset_bottom = 63.0
+
+[node name="ColorRect25" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -15.0
+offset_top = 39.0
+offset_right = 25.0
+offset_bottom = 79.0
+
+[node name="ColorRect26" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -45.0
+offset_top = -35.0
+offset_right = -5.0
+offset_bottom = 5.0
+
+[node name="ColorRect27" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -82.0
+offset_top = -39.0
+offset_right = -42.0
+offset_bottom = 1.0
+
+[node name="ColorRect28" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -77.0
+offset_top = 1.0
+offset_right = -37.0
+offset_bottom = 41.0
+
+[node name="ColorRect29" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = -53.0
+offset_top = 11.0
+offset_right = -13.0
+offset_bottom = 51.0
+
+[node name="ColorRect30" type="ColorRect" parent="Grid/Lines/V_lines"]
+offset_left = 51.0
+offset_top = -5.0
+offset_right = 91.0
+offset_bottom = 35.0
+
+[node name="UI" type="Node2D" parent="."]
+
+[node name="score board" type="Node2D" parent="UI"]
+
+[node name="Sprite2D" type="Sprite2D" parent="UI/score board"]
+
+[node name="Sprite2D2" type="Sprite2D" parent="UI/score board"]
+
+[node name="Sprite2D" type="Sprite2D" parent="UI"]
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]

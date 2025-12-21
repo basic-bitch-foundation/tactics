@@ -1,7 +1,12 @@
+Node2D
+HTTPRequest
+Sprite2D
+CanvasLayer
+ColorRect
+Control
+GridMap
 Button
 Timer
-Sprite2D
-Node2D
 Node
 Camera2D
 TextureButton

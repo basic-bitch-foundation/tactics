@@ -14,6 +14,12 @@ config/name="tactics"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[display]
+
+mouse_cursor/custom_image="uid://ck231p882p661"
+mouse_cursor/custom_image_hotspot=Vector2(10, 5)
+mouse_cursor/tooltip_position_offset=Vector2(20, 20)
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
