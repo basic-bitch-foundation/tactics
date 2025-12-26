@@ -16,6 +16,9 @@ config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=540
+window/size/viewport_height=960
+window/handheld/orientation=1
 mouse_cursor/custom_image="uid://ck231p882p661"
 mouse_cursor/custom_image_hotspot=Vector2(10, 5)
 mouse_cursor/tooltip_position_offset=Vector2(20, 20)

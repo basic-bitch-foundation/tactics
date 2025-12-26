@@ -54,6 +54,9 @@ var req: HTTPRequest
 
 
 func _ready():
+	var github_button = $i_button  # Adjust path to your button
+	github_button.pressed.connect(_on_github_pressed)
+
 	for i in range(10):
 		nums.append(load("res://tactic-assets/" + str(i) + ".png"))
 	
@@ -296,7 +299,7 @@ func gotresponse(_result, code, _headers, body):
 		return
 	
 	
-	
+
 	var choice = resp.choices[0]
 	
 	
@@ -579,7 +582,6 @@ func checkwin():
 
 
 
-
 func resetgame():
 	for cell in board:
 		cell.disabled = false
@@ -591,3 +593,7 @@ func resetgame():
 	
 	if useai and not aiside:
 		call_deferred("aimove")
+		
+func _on_github_pressed():
+	OS.shell_open("https://github.com/basic-bitch-foundation/tactics/")
+	

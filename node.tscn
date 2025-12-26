@@ -15,12 +15,11 @@ script = ExtResource("1_l6pdb")
 
 [node name="bg" type="TextureRect" parent="."]
 texture_filter = 1
-offset_left = -64.0
-offset_top = -111.0
-offset_right = 103.0
-offset_bottom = 139.0
+offset_left = -121.0
+offset_top = -177.0
+offset_right = 156.0
+offset_bottom = 220.0
 texture = ExtResource("2_r657h")
-metadata/_edit_lock_ = true
 
 [node name="bg_small" type="TextureRect" parent="."]
 texture_filter = 1
@@ -225,8 +224,5 @@ scale = Vector2(0.9, 0.9)
 texture_normal = ExtResource("9_r657h")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(4, 4)
-
-[node name="cursor" type="Node2D" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="cursor"]
+position = Vector2(17, 8)
+zoom = Vector2(4.7, 4.7)
