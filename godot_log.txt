@@ -1,0 +1,2 @@
+Command 'godot4' not found, but can be installed with:
+sudo snap install godot4

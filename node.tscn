@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dosglrmm0vyfc"]
+[gd_scene load_steps=14 format=3 uid="uid://dosglrmm0vyfc"]
 
 [ext_resource type="Script" uid="uid://06myackh3e8v" path="res://node.gd" id="1_l6pdb"]
 [ext_resource type="Texture2D" uid="uid://bvmgv58j4ma27" path="res://tactic-assets/mainbg.png" id="2_r657h"]
@@ -9,6 +9,10 @@
 [ext_resource type="Texture2D" uid="uid://5da2rydrrkvx" path="res://tactic-assets/score-x.png" id="7_bcos8"]
 [ext_resource type="Texture2D" uid="uid://crqhfv3fix8s2" path="res://tactic-assets/empty-board.png" id="8_cmsyx"]
 [ext_resource type="Texture2D" uid="uid://s5wih558h14g" path="res://tactic-assets/i-button.png" id="9_r657h"]
+[ext_resource type="Texture2D" uid="uid://b51eyg5cjmqw2" path="res://tactic-assets/back_btn.png" id="10_f0urt"]
+[ext_resource type="AudioStream" uid="uid://cf3vm7216stkr" path="res://blue_box.wav" id="11_436f3"]
+[ext_resource type="AudioStream" uid="uid://uqnofqrpcgds" path="res://pink_box.wav" id="12_bcos8"]
+[ext_resource type="AudioStream" uid="uid://dhbh5fqu27gjl" path="res://game finish.wav" id="13_cmsyx"]
 
 [node name="Node" type="Node2D"]
 script = ExtResource("1_l6pdb")
@@ -226,3 +230,22 @@ texture_normal = ExtResource("9_r657h")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(17, 8)
 zoom = Vector2(4.7, 4.7)
+
+[node name="back_btn" type="Button" parent="."]
+texture_filter = 1
+offset_left = -40.0
+offset_top = -89.0
+offset_right = -14.0
+offset_bottom = -62.0
+scale = Vector2(0.9, 0.9)
+icon = ExtResource("10_f0urt")
+flat = true
+
+[node name="PlayerMoveSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_436f3")
+
+[node name="AIMoveSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_bcos8")
+
+[node name="GameOverSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_cmsyx")

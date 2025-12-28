@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://cywcjmppo84ny"]
+
+[ext_resource type="Texture2D" uid="uid://b3tslv7ubqm1f" path="res://tactic-assets/tic_btn.png" id="1_h2yge"]
+[ext_resource type="Script" uid="uid://bhbonu35f6yi6" path="res://main.gd" id="1_lquwl"]
+[ext_resource type="Texture2D" uid="uid://b83abvs17joeg" path="res://tactic-assets/doot_box_btn.png" id="2_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://euu8r2bqilfr" path="res://tactic-assets/mute_btn.png" id="3_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://tmvoquymay1j" path="res://tactic-assets/mainframe.png" id="3_lquwl"]
+
+[node name="Node" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_lquwl")
+
+[node name="TTT" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 21.0
+offset_top = 124.0
+offset_right = 80.0
+offset_bottom = 183.0
+icon = ExtResource("1_h2yge")
+flat = true
+
+[node name="DB" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 125.0
+offset_top = 123.0
+offset_right = 184.0
+offset_bottom = 182.0
+icon = ExtResource("2_1bvp3")
+flat = true
+
+[node name="MUTE" type="Button" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 90.0
+offset_top = 214.0
+offset_right = 149.0
+offset_bottom = 273.0
+scale = Vector2(0.5, 0.5)
+icon = ExtResource("3_1bvp3")
+flat = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+texture_filter = 1
+position = Vector2(103, 162.99998)
+scale = Vector2(3.7272732, 3.3673472)
+texture = ExtResource("3_lquwl")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(103, 164)
+zoom = Vector2(3, 3)

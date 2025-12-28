@@ -1,4 +1,8 @@
 extends Node2D
+@onready var back_btn = $back_btn
+@onready var player_move_sound = $PlayerMoveSound
+@onready var ai_move_sound = $AIMoveSound
+@onready var game_over_sound = $GameOverSound
 
 const GRID_SIZE = 6
 const DOT_SPACING = 80
@@ -52,6 +56,7 @@ var turn_img: Sprite2D
 
 
 func _ready():
+	back_btn.pressed.connect(_on_back_pressed)
 	setup_arrays()
 	make_sprites()
 	
@@ -189,6 +194,9 @@ func take_line(line: Sprite2D):
 	
 	line.visible = true
 	line.texture = LINE_BLUE if player == 0 else LINE_PINK
+	# Play player move sound
+	if player_move_sound:
+		player_move_sound.play()
 	
 	var got = false
 	if type == "h":
@@ -256,12 +264,19 @@ func got_box(row: int, col: int) -> bool:
 
 
 func end_game():
+	
+	# Play game over sound
+	if game_over_sound:
+		game_over_sound.play()
+	await get_tree().create_timer(2.0).timeout
+	get_tree().change_scene_to_file("res://main.tscn")
 	if score[0] > score[1]:
 		print("GAME OVER - BLUE WINS! (%d-%d)" % [score[0], score[1]])
 	elif score[1] > score[0]:
 		print("GAME OVER - PINK WINS! (%d-%d)" % [score[0], score[1]])
 	else:
 		print("GAME OVER - TIE! (%d-%d)" % [score[0], score[1]])
+		
 
 
 func _process(delta):
@@ -396,12 +411,18 @@ func parse_move(msg: String, i: int):
 		if type == "H" and row >= 0 and row < GRID_SIZE and col >= 0 and col < GRID_SIZE - 1:
 			if h_lines[row][col] == -1:
 				print("AI %d plays: H%d,%d (%.1fs)" % [i + 1, row, col, timer[i]])
+				# Play AI move sound
+				if ai_move_sound:
+					ai_move_sound.play()
 				clear_ai()
 				take_line(h_sprites[row][col])
 				return
 		elif type == "V" and row >= 0 and row < GRID_SIZE - 1 and col >= 0 and col < GRID_SIZE:
 			if v_lines[row][col] == -1:
 				print("AI %d plays: V%d,%d (%.1fs)" % [i + 1, row, col, timer[i]])
+				# Play AI move sound
+				if ai_move_sound:
+					ai_move_sound.play()
 				clear_ai()
 				take_line(v_sprites[row][col])
 				return
@@ -537,7 +558,12 @@ func random_move():
 		else:
 			print("Fallback: V%d,%d" % [m[0], m[1]])
 			take_line(v_sprites[m[0]][m[1]])
+func _on_back_pressed():
+	get_tree().change_scene_to_file("res://main.tscn")
 
 '''
+
+
+
 
 '''

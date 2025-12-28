@@ -2,91 +2,51 @@ extends Node2D
 
 
 var xtex = preload("res://tactic-assets/x-board.png")
-
 var otex = preload("res://tactic-assets/o-board.png")
-
-
-
 var xhov = preload("res://tactic-assets/x-hover.png")
-
 var ohov = preload("res://tactic-assets/o-hover.png")
-
 var xturn = preload("res://tactic-assets/xturn.png")
-
 var oturn = preload("res://tactic-assets/oturn.png")
 
-
 var nums = []
-
 var turn = true
-
 var xscore = 0
-
 var oscore = 0
-
 var timer = 30
-
 var board = []
-
 var useai = true  
-
 var aiside = true
-
 var aiturn = false
-
 var req: HTTPRequest
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@onready var back_btn = $back_btn
+@onready var player_move_sound = $PlayerMoveSound
+@onready var ai_move_sound = $AIMoveSound
+@onready var game_over_sound = $GameOverSound
 
 
 func _ready():
-	var github_button = $i_button  # Adjust path to your button
+	back_btn.pressed.connect(_on_back_pressed)
+	var github_button = $i_button
 	github_button.pressed.connect(_on_github_pressed)
 
 	for i in range(10):
 		nums.append(load("res://tactic-assets/" + str(i) + ".png"))
 	
 	board.append($Node2D/TextureButton)
-	
 	board.append($Node2D/TextureButton2)
-	
 	board.append($Node2D/TextureButton3)
-	
 	board.append($Node2D/TextureButton4)
-	
 	board.append($Node2D/TextureButton5)
-	
 	board.append($Node2D/TextureButton6)
-	
 	board.append($Node2D/TextureButton7)
-	
 	board.append($Node2D/TextureButton8)
-	
 	board.append($Node2D/TextureButton9)
-	
 	
 	for cell in board:
 		cell.pressed.connect(click.bind(cell))
 	
 	$timer/CountdownTimer.timeout.connect(tick)
-	
-	
-	
-	
 	
 	req = HTTPRequest.new()
 	add_child(req)
@@ -100,49 +60,18 @@ func _ready():
 		call_deferred("aimove")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 func click(cell):
 	if cell.disabled or aiturn:
 		return
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	var mark = xtex if turn else otex
 	cell.texture_normal = mark
 	cell.texture_hover = mark
 	cell.disabled = true
 	
-	
-	
-	
-	
-	
-	
+	# Play player move sound
+	if player_move_sound:
+		player_move_sound.play()
 	
 	if checkwin():
 		if turn:
@@ -150,10 +79,19 @@ func click(cell):
 		else:
 			oscore += 1
 		drawscore()
+		
+		# Play game over sound
+		if game_over_sound:
+			game_over_sound.play()
+		
 		resetgame()
 		return
 	
 	if boardfull():
+		# Play game over sound (tie)
+		if game_over_sound:
+			game_over_sound.play()
+		
 		resetgame()
 		return
 	
@@ -165,46 +103,16 @@ func click(cell):
 		call_deferred("aimove")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 func aimove():
 	if aiturn:
 		return
 	
 	aiturn = true
 	
-	
 	var state = getstate()
-	
 	var avail = getmoves()
-	
-	
 	var aisym = "O" if aiside else "X"
-	
-	
 	var playsym = "X" if aiside else "O"
-	
-	
-	
 	
 	var msg = "Tic Tac Toe Game - You are '%s', opponent is '%s'\n" % [aisym, playsym]
 	msg += "Board: %s\n" % state
@@ -213,11 +121,6 @@ func aimove():
 	msg += "Strategy: Win > Block > Center(5) > Corner\n"
 	msg += "Reply with ONLY the position number (1-9). Nothing else."
 	
-	
-	
-	
-	
-	
 	var data = {
 		"model": "google/gemini-2.5-flash",
 		"messages": [{"role": "user", "content": msg}],
@@ -225,26 +128,12 @@ func aimove():
 		"max_tokens": 10
 	}
 	
-	
 	var body = JSON.stringify(data)
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	var headers = [
 		"Authorization: Bearer sk-hc-v1-fb0ff6e1952e4b3d815de0df186865010081332da1ee4bcd9060de60b620bcb5",
 		"Content-Type: application/json"
 	]
-	
-	
-	
-	
 	
 	var err = req.request(
 		"https://ai.hackclub.com/proxy/v1/chat/completions",
@@ -258,19 +147,6 @@ func aimove():
 		fallback()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 func gotresponse(_result, code, _headers, body):
 	aiturn = false
 	
@@ -278,19 +154,13 @@ func gotresponse(_result, code, _headers, body):
 		fallback()
 		return
 	
-	
 	var text = body.get_string_from_utf8()
-	
 	var json = JSON.new()
-	
-	
 	var err = json.parse(text)
 	
 	if err != OK:
 		fallback()
 		return
-	
-	
 	
 	var resp = json.data
 	
@@ -298,11 +168,7 @@ func gotresponse(_result, code, _headers, body):
 		fallback()
 		return
 	
-	
-
 	var choice = resp.choices[0]
-	
-	
 	var aimsg = ""
 	
 	if choice.message.has("content") and choice.message.content != null and choice.message.content != "":
@@ -318,16 +184,9 @@ func gotresponse(_result, code, _headers, body):
 	aimsg = aimsg.strip_edges()
 	print("AI: ", aimsg)
 	
-	
-	
 	var pos = -1
-	
-	
 	var regex = RegEx.new()
 	regex.compile("\\b([1-9])\\b")
-	
-	
-	
 	var match = regex.search(aimsg)
 	
 	if match:
@@ -348,9 +207,6 @@ func gotresponse(_result, code, _headers, body):
 	fallback()
 
 
-
-
-
 func domove(idx):
 	var cell = board[idx]
 	var mark = xtex if turn else otex
@@ -358,26 +214,35 @@ func domove(idx):
 	cell.texture_hover = mark
 	cell.disabled = true
 	
+	# Play AI move sound
+	if ai_move_sound:
+		ai_move_sound.play()
+	
 	if checkwin():
 		if turn:
 			xscore += 1
 		else:
 			oscore += 1
 		drawscore()
+		
+		# Play game over sound
+		if game_over_sound:
+			game_over_sound.play()
+		
 		resetgame()
 		return
 	
 	if boardfull():
+		# Play game over sound (tie)
+		if game_over_sound:
+			game_over_sound.play()
+		
 		resetgame()
 		return
 	
 	turn = not turn
 	timer = 30
 	refresh()
-
-
-
-
 
 
 func fallback():
@@ -389,10 +254,6 @@ func fallback():
 	if open.size() > 0:
 		var pick = open[randi() % open.size()]
 		domove(pick)
-
-
-
-
 
 
 func getstate() -> String:
@@ -410,19 +271,6 @@ func getstate() -> String:
 	return state.strip_edges()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 func getmoves() -> String:
 	var avail = []
 	for i in range(board.size()):
@@ -431,35 +279,11 @@ func getmoves() -> String:
 	return ",".join(avail)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 func boardfull() -> bool:
 	for cell in board:
 		if not cell.disabled:
 			return false
 	return true
-
-
-
-
-
-
-
-
 
 
 func refresh():
@@ -472,16 +296,6 @@ func refresh():
 	$turn_indi/Sprite2D.texture = xturn if turn else oturn
 
 
-
-
-
-
-
-
-
-
-
-
 func tick():
 	timer -= 1
 	if timer <= 0:
@@ -491,64 +305,20 @@ func tick():
 	drawtimer()
 
 
-
-
-
-
-
-
-
-
-
-
 func drawtimer():
 	var m = timer / 60
-	
 	var s = timer % 60
-	
 	$timer/dig1.texture = nums[m / 10]
-	
 	$timer/dig2.texture = nums[m % 10]
-	
 	$timer/dig3.texture = nums[s / 10]
-	
 	$timer/dig4.texture = nums[s % 10]
-	
-
-
-
-
-
-
-
-
 
 
 func drawscore():
 	$scoreboard/playerx/scoredigit1.texture = nums[xscore / 10]
-	
 	$scoreboard/playerx/scoredigit2.texture = nums[xscore % 10]
-	
 	$scoreboard/playero/scoredigit1.texture = nums[oscore / 10]
-	
-	
 	$scoreboard/playero/scoredigit2.texture = nums[oscore % 10]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 func checkwin():
@@ -570,30 +340,14 @@ func checkwin():
 	return false
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 func resetgame():
-	for cell in board:
-		cell.disabled = false
-		cell.texture_normal = null
-	
-	turn = true
-	timer = 30
-	refresh()
-	
-	if useai and not aiside:
-		call_deferred("aimove")
-		
+	await get_tree().create_timer(2.0).timeout
+	get_tree().change_scene_to_file("res://main.tscn")
+
+
 func _on_github_pressed():
 	OS.shell_open("https://github.com/basic-bitch-foundation/tactics/")
-	
+
+
+func _on_back_pressed():
+	get_tree().change_scene_to_file("res://main.tscn")

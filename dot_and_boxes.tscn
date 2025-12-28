@@ -1,9 +1,16 @@
-[gd_scene load_steps=31 format=3 uid="uid://dq7y1j0g01wqk"]
+[gd_scene load_steps=38 format=3 uid="uid://dq7y1j0g01wqk"]
 
 [ext_resource type="Script" uid="uid://cxhbl501xx654" path="res://dot_and_boxes.gd" id="1_yowkn"]
 [ext_resource type="Texture2D" uid="uid://dbmafr50kypao" path="res://white_bg.png" id="2_clgpa"]
 [ext_resource type="Texture2D" uid="uid://vih0cdioiw47" path="res://tactic-assets/border.png" id="2_rld3d"]
 [ext_resource type="Texture2D" uid="uid://dfb8h7uyoi0p5" path="res://tactic-assets/skeleton_frames.png" id="3_pj8ac"]
+[ext_resource type="Texture2D" uid="uid://dyt0li2aai66k" path="res://tactic-assets/i_btn.png" id="5_6matu"]
+[ext_resource type="Script" uid="uid://gu2mmnqj6n3x" path="res://htp_tab.gd" id="5_mi27q"]
+[ext_resource type="Texture2D" uid="uid://bdrgf16ffocmm" path="res://tactic-assets/minimize_btn.png" id="7_2khtf"]
+[ext_resource type="Texture2D" uid="uid://cvjgma4ldal0v" path="res://tactic-assets/back_btn_2.png" id="8_2khtf"]
+[ext_resource type="AudioStream" uid="uid://cf3vm7216stkr" path="res://blue_box.wav" id="9_yknub"]
+[ext_resource type="AudioStream" uid="uid://uqnofqrpcgds" path="res://pink_box.wav" id="10_aimi1"]
+[ext_resource type="AudioStream" uid="uid://dhbh5fqu27gjl" path="res://game finish.wav" id="11_b2ap6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rld3d"]
 atlas = ExtResource("3_pj8ac")
@@ -193,10 +200,12 @@ script = ExtResource("1_yowkn")
 
 [node name="Grid" type="Node2D" parent="."]
 z_index = 1
+texture_filter = 1
 position = Vector2(-100, 0)
 
 [node name="Boxes" type="Node2D" parent="Grid"]
 z_index = 3
+texture_filter = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="Grid/Boxes"]
 
@@ -249,6 +258,7 @@ z_index = 3
 [node name="Sprite2D25" type="Sprite2D" parent="Grid/Boxes"]
 
 [node name="Dots" type="Node2D" parent="Grid"]
+texture_filter = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="Grid/Dots"]
 
@@ -324,6 +334,7 @@ z_index = 3
 
 [node name="Lines" type="Node2D" parent="Grid"]
 z_index = 1
+texture_filter = 1
 
 [node name="H_lines" type="Node2D" parent="Grid/Lines"]
 
@@ -492,7 +503,6 @@ position = Vector2(712, 587)
 sprite_frames = SubResource("SpriteFrames_6c37r")
 autoplay = "default"
 frame_progress = 0.42248562
-metadata/_edit_lock_ = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(424, 486)
@@ -504,6 +514,90 @@ texture_filter = 1
 position = Vector2(369.00003, 730)
 scale = Vector2(9.563, 9.5)
 
-[node name="Button" type="Button" parent="."]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="HTP_tab" type="Node2D" parent="."]
+z_index = 4
+script = ExtResource("5_mi27q")
+
+[node name="i_btn" type="Button" parent="HTP_tab"]
+texture_filter = 1
+offset_left = 656.0
+offset_top = 59.0
+offset_right = 681.0
+offset_bottom = 86.0
+scale = Vector2(3, 3)
+icon = ExtResource("5_6matu")
+flat = true
+
+[node name="minimize" type="Button" parent="HTP_tab"]
+z_index = 1
+texture_filter = 1
+offset_left = 644.0
+offset_top = 116.0
+offset_right = 670.0
+offset_bottom = 142.0
+icon = ExtResource("7_2khtf")
+flat = true
+
+[node name="Panel" type="RichTextLabel" parent="HTP_tab"]
+offset_left = 182.0
+offset_top = 138.0
+offset_right = 641.0
+offset_bottom = 862.0
+bbcode_enabled = true
+text = "[center][color=#FFD700][b]HOW TO PLAY - DOTS AND BOXES[/b][/color][/center]
+
+[color=#00BFFF][b]OBJECTIVE:[/b][/color]
+Complete boxes by drawing lines between dots. The player with the most boxes wins!
+
+[color=#00BFFF][b]GAMEPLAY:[/b][/color]
+- Click near any empty line to claim it
+- Lines turn [color=#00BFFF]BLUE[/color] (Player 1) or [color=#FF69B4]PINK[/color] (Player 2)
+- Complete all 4 sides of a box to claim it
+- When you complete a box, you get another turn
+- Game ends when all boxes are filled
+
+[color=#00BFFF][b]TURN INDICATOR:[/b][/color]
+- Watch the indicator at the top to see whose turn it is
+- [color=#00BFFF]Blue dot[/color] = Player 1's turn
+- [color=#FF69B4]Pink dot[/color] = Player 2's turn
+
+[color=#00BFFF][b]AI OPPONENT:[/b][/color]
+- The AI will think and make its move automatically
+- Wait for the AI to respond before clicking
+- You'll see \"Turn Indicator Below\"
+
+[color=#00BFFF][b]WINNING STRATEGY:[/b][/color]
+- Try to complete boxes in chains
+- Avoid creating 3-sided boxes for your opponent
+- Control the endgame by counting remaining moves
+
+[color=#FFD700][b]Good luck and have fun![/b][/color]\""
+
+[node name="ColorRect" type="ColorRect" parent="HTP_tab/Panel"]
+z_index = -1
+layout_mode = 0
+offset_left = -1.0
+offset_top = -7.0
+offset_right = 482.0
+offset_bottom = 723.0
+color = Color(0.17671841, 0.45029795, 0.4442844, 1)
+metadata/_edit_lock_ = true
+
+[node name="back_btn" type="Button" parent="."]
+texture_filter = 1
+offset_left = 119.0
+offset_top = 57.0
+offset_right = 144.0
+offset_bottom = 84.0
+scale = Vector2(3.21, 3.21)
+icon = ExtResource("8_2khtf")
+flat = true
+
+[node name="PlayerMoveSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_yknub")
+
+[node name="AIMoveSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_aimi1")
+
+[node name="GameOverSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("11_b2ap6")
