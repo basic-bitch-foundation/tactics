@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Tactics",
+  "version": "1.0.0",
+  "description": "Godot Tactics Game",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage",
+    "webRequest",
+    "declarativeNetRequest",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "<all_urls>",
+    "https://ai.hackclub.com/*",
+    "https://github.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src 'self' https://ai.hackclub.com https://github.com blob: data: *;"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["game/*", "*.js", "*.wasm", "*.pck", "*.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

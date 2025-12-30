@@ -1,201 +1,34 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1766920913
+::res://::1767083636
+audio_manager.gd::GDScript::3031637932912426062::1767008117::0::1::::<>Node<><>0<>0<><>::
 blue_box.wav::AudioStreamWAV::5182886372745393329::1766914653::1766920916::1::::<><><>0<>0<>4a436b8a343be4fb5d8823bd3a887f63<>res://.godot/imported/blue_box.wav-02a9cd970cff474c8a9a82ef009fb732.sample::
+cef_manager.gd::GDScript::178215111875507474::1766929614::0::1::::<>Node<><>0<>0<><>::
 colon.png::CompressedTexture2D::5158456437582632420::1765723044::1765723048::1::::<><><>0<>0<>bde3e531bea44ee56a042dbe1e13b722<>res://.godot/imported/colon.png-affd9c386300df85ac3357c42f7dd0f6.ctex::
-dot_and_boxes.gd::GDScript::6401717391598698045::1766913903::0::1::::<>Node2D<><>0<>0<><>::
-dot_and_boxes.tscn::PackedScene::8349847787522987106::1766908033::0::1::::<><><>0<>0<><>::uid://cxhbl501xx654::::res://dot_and_boxes.gd<>uid://dbmafr50kypao::::res://white_bg.png<>uid://vih0cdioiw47::::res://tactic-assets/border.png<>uid://dfb8h7uyoi0p5::::res://tactic-assets/skeleton_frames.png<>uid://dyt0li2aai66k::::res://tactic-assets/i_btn.png<>uid://gu2mmnqj6n3x::::res://htp_tab.gd<>uid://bdrgf16ffocmm::::res://tactic-assets/minimize_btn.png<>uid://cvjgma4ldal0v::::res://tactic-assets/back_btn_2.png
+dot_and_boxes.gd::GDScript::6401717391598698045::1767032698::0::1::::<>Node2D<><>0<>0<><>::
+dot_and_boxes.tscn::PackedScene::8349847787522987106::1767010381::0::1::::<><><>0<>0<><>::uid://cxhbl501xx654::::res://dot_and_boxes.gd<>uid://dbmafr50kypao::::res://white_bg.png<>uid://vih0cdioiw47::::res://tactic-assets/border.png<>uid://cklvyoi1ojrce::::res://tactic-assets/pink_box.png<>uid://dfb8h7uyoi0p5::::res://tactic-assets/skeleton_frames.png<>uid://diy6qig3p7hsi::::res://tactic-assets/9.png<>uid://c6i6v0pa0n28n::::res://tactic-assets/blue_box.png<>uid://dyt0li2aai66k::::res://tactic-assets/i_btn.png<>uid://gu2mmnqj6n3x::::res://htp_tab.gd<>uid://bdrgf16ffocmm::::res://tactic-assets/minimize_btn.png<>uid://cvjgma4ldal0v::::res://tactic-assets/back_btn_2.png<>uid://cf3vm7216stkr::::res://blue_box.wav<>uid://uqnofqrpcgds::::res://pink_box.wav<>uid://dhbh5fqu27gjl::::res://game finish.wav
+export_presets.cfg::TextFile::-1::1767083636::0::1::::<><><>0<>0<><>::
 game finish.wav::AudioStreamWAV::7653127215345777669::1766914734::1766920916::1::::<><><>0<>0<>170736eb481e7f7735bacc7dbce5d79d<>res://.godot/imported/game finish.wav-c414bf3b4587a15425370ce97c6332ba.sample::
 godot_log.txt::TextFile::-1::1766919203::0::1::::<><><>0<>0<><>::
 htp_tab.gd::GDScript::464082056343830475::1766843949::0::1::::<>Node2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::2931249418199352704::1765441222::1765456546::1::::<><><>0<>0<>3225cfa31d55eac2db1716f4357b3c08<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.gd::GDScript::2880681315225399063::1766907844::0::1::::<>Control<><>0<>0<><>::
-main.tscn::PackedScene::6502928085572810446::1766870617::0::1::::<><><>0<>0<><>::uid://b3tslv7ubqm1f::::res://tactic-assets/tic_btn.png<>uid://bhbonu35f6yi6::::res://main.gd<>uid://b83abvs17joeg::::res://tactic-assets/doot_box_btn.png<>uid://euu8r2bqilfr::::res://tactic-assets/mute_btn.png<>uid://tmvoquymay1j::::res://tactic-assets/mainframe.png
-node.gd::GDScript::1819488267848001431::1766853226::0::1::::<>Node2D<><>0<>0<><>::
-node.tscn::PackedScene::8179449519288477380::1766913903::0::1::::<><><>0<>0<><>::uid://06myackh3e8v::::res://node.gd<>uid://bvmgv58j4ma27::::res://tactic-assets/mainbg.png<>uid://dk1aok6gnvrgj::::res://tactic-assets/secondbg.png<>uid://bbab5mby2a3ll::::res://tactic-assets/msc-bg.png<>uid://b7wc14tnfwoj4::::res://tactic-assets/score-y.png<>uid://cfq2a2ucomu17::::res://colon.png<>uid://5da2rydrrkvx::::res://tactic-assets/score-x.png<>uid://crqhfv3fix8s2::::res://tactic-assets/empty-board.png<>uid://s5wih558h14g::::res://tactic-assets/i-button.png<>uid://b51eyg5cjmqw2::::res://tactic-assets/back_btn.png
+index.144x144.png::CompressedTexture2D::2268481892515814268::1767021918::1767021964::1::::<><><>0<>0<>0d95463857ebe2f53e680b8bdde528d9<>res://.godot/imported/index.144x144.png-2b0029b1c41935347a831d6368ea8b5e.ctex::
+index.180x180.png::CompressedTexture2D::7298529278730379982::1767021918::1767021964::1::::<><><>0<>0<>b1724b18f418ef428edb19884f727115<>res://.godot/imported/index.180x180.png-85792731391e8780a712c9f88639f6c3.ctex::
+index.512x512.png::CompressedTexture2D::4063402986232592168::1767021918::1767021965::1::::<><><>0<>0<>be0ee558cd8ab4e92cc6b8274a7f897c<>res://.godot/imported/index.512x512.png-91710c69823f64c7fc73cfe505689b09.ctex::
+index.apple-touch-icon.png::CompressedTexture2D::6729377518865360901::1767021918::1767021964::1::::<><><>0<>0<>7278741cd4adbab0d4267f3cf1ce1887<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
+index.icon.png::CompressedTexture2D::4190171831305964042::1767021918::1767021964::1::::<><><>0<>0<>3ac4b6ead4e06040ce10949b5d5b5c39<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
+index.manifest.json::JSON::-1::1767021918::0::1::::<><><>0<>0<><>::
+index.png::CompressedTexture2D::1488522448548894959::1767021918::1767021965::1::::<><><>0<>0<>7cf73815fb6690bde6cc4c6bed337ba1<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
+main.gd::GDScript::2880681315225399063::1766922169::0::1::::<>Control<><>0<>0<><>::
+main.tscn::PackedScene::6502928085572810446::1767024116::0::1::::<><><>0<>0<><>::uid://b3tslv7ubqm1f::::res://tactic-assets/tic_btn.png<>uid://bhbonu35f6yi6::::res://main.gd<>uid://b83abvs17joeg::::res://tactic-assets/doot_box_btn.png<>uid://euu8r2bqilfr::::res://tactic-assets/mute_btn.png<>uid://tmvoquymay1j::::res://tactic-assets/mainframe.png
+node.gd::GDScript::1819488267848001431::1767078518::0::1::::<>Node2D<><>0<>0<><>::
+node.tscn::PackedScene::8179449519288477380::1767022979::0::1::::<><><>0<>0<><>::uid://06myackh3e8v::::res://node.gd<>uid://bvmgv58j4ma27::::res://tactic-assets/mainbg.png<>uid://dk1aok6gnvrgj::::res://tactic-assets/secondbg.png<>uid://bbab5mby2a3ll::::res://tactic-assets/msc-bg.png<>uid://b7wc14tnfwoj4::::res://tactic-assets/score-y.png<>uid://cfq2a2ucomu17::::res://colon.png<>uid://5da2rydrrkvx::::res://tactic-assets/score-x.png<>uid://crqhfv3fix8s2::::res://tactic-assets/empty-board.png<>uid://s5wih558h14g::::res://tactic-assets/i-button.png<>uid://b51eyg5cjmqw2::::res://tactic-assets/back_btn.png<>uid://cf3vm7216stkr::::res://blue_box.wav<>uid://uqnofqrpcgds::::res://pink_box.wav<>uid://dhbh5fqu27gjl::::res://game finish.wav
 pink_box.wav::AudioStreamWAV::1437621526972390960::1766914698::1766920916::1::::<><><>0<>0<>68ae06ad33962fb3edcc108f934d2a84<>res://.godot/imported/pink_box.wav-ce4615a2ea98b33075f51eb9c4e9a940.sample::
 README.md::TextFile::-1::1765455713::0::1::::<><><>0<>0<><>::
-cef_manager.gd::GDScript::178215111875507474::1766920146::0::1::::<>Node<><>0<>0<><>::
 Test.tscn::PackedScene::-1::1765652914::0::1::::<><><>0<>0<><>::
-tuto.gd::GDScript::8293378589777256151::1766920508::0::1::::<>Control<><>0<>0<><>::
-tuto.tscn::PackedScene::47495721790443850::1766920655::0::1::::<><><>0<>0<><>::uid://dqfmy7fggjitj::::res://tuto.gd<>uid://cvjgma4ldal0v::::res://tactic-assets/back_btn_2.png
+tuto.gd::GDScript::8293378589777256151::1766921800::0::1::::<>Control<><>0<>0<><>::
+tuto.tscn::PackedScene::47495721790443850::1766921804::0::1::::<><><>0<>0<><>::uid://dqfmy7fggjitj::::res://tuto.gd<>uid://cvjgma4ldal0v::::res://tactic-assets/back_btn_2.png
 white_bg.png::CompressedTexture2D::7254233297126871882::1766665325::1766665325::1::::<><><>0<>0<>1339464d2545935fbb7832771c1bc5c1<>res://.godot/imported/white_bg.png-65a19f58629b08a5776ff00fa0813dc4.ctex::
-::res://addons/::1766911884
-::res://addons/gdcef/::1766918627
-plugin.cfg::TextFile::-1::1766911887::0::1::::<><><>0<>0<><>::
-plugin.gd::GDScript::2789507347895591021::1766911887::0::1::::<>EditorPlugin<><>0<>1<><>::
-README.md::TextFile::-1::1766918627::0::1::::<><><>0<>0<><>::
-requirements.txt::TextFile::-1::1766911887::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/demos/::1766919492
-README.md::TextFile::-1::1766919492::0::1::::<><><>0<>0<><>::
-repos.txt::TextFile::-1::1766911885::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/doc/::1766911886
-API.md::TextFile::-1::1766911885::0::1::::<><><>0<>0<><>::
-architecture.md::TextFile::-1::1766911886::0::1::::<><><>0<>0<><>::
-detailsdesign.md::TextFile::-1::1766911886::0::1::::<><><>0<>0<><>::
-installation.md::TextFile::-1::1766911886::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/doc/architecture/::1766911888
-class_diagram.png::CompressedTexture2D::1235634843050692223::1766911886::1766911888::1::::<><><>0<>0<>531f2a75f4cb98516add4af75eeebff9<>res://.godot/imported/class_diagram.png-9039702924a475cf4dde7142d49bb181.ctex::
-sequence_download.png::CompressedTexture2D::7415055233502409323::1766911886::1766911887::1::::<><><>0<>0<>5c4086f8c29a1b9b6951815d4b591024<>res://.godot/imported/sequence_download.png-a9494cbb9d0b0156cbd1818fba8487d1.ctex::
-sequence_init.png::CompressedTexture2D::798367026069798374::1766911886::1766911888::1::::<><><>0<>0<>4c73b182c4172540a39a516ecc0a9b8a<>res://.godot/imported/sequence_init.png-76ff5fbd8a0df9cd5bab32e7f4d1f098.ctex::
-sequence_js_communication.png::CompressedTexture2D::2765358112004961906::1766911886::1766911888::1::::<><><>0<>0<>3a47148d5e37db411ba6c4e6fc12732f<>res://.godot/imported/sequence_js_communication.png-7da13d8a4311ffafaab611ac0c9ef9af.ctex::
-sequence_paint.png::CompressedTexture2D::7750603771113540401::1766911886::1766911888::1::::<><><>0<>0<>beef134025fb774fe523348120d329aa<>res://.godot/imported/sequence_paint.png-99dba332fad0577bd1bd8dd395953d77.ctex::
-::res://addons/gdcef/doc/gallery/::1766911891
-elitemeta.jpg::CompressedTexture2D::5246203665893786779::1766911886::1766911888::1::::<><><>0<>0<>25d07ff72b9ca9e0eda9e3d5b0769967<>res://.godot/imported/elitemeta.jpg-f57adc35ad8bb14742337bb1a9e5b856.ctex::
-tnitrfr.png::CompressedTexture2D::5096091443061860185::1766911886::1766911891::1::::<><><>0<>0<>89646dd6a93880f73bbae99b69e0f248<>res://.godot/imported/tnitrfr.png-249bc7b82c75af06a7d41873f9115e50.ctex::
-wattesigma.png::CompressedTexture2D::8252009752707883519::1766911886::1766911888::1::::<><><>0<>0<>1bd99ef227bbc7e0fe4330adbcd88a83<>res://.godot/imported/wattesigma.png-646c074fff10bf252d5e95de9c1481d1.ctex::
-::res://addons/gdcef/doc/pics/::1766911889
-cef.png::CompressedTexture2D::7150245174718009620::1766911886::1766911888::1::::<><><>0<>0<>d59d7ce750b7b0ce256f8907985ac2e2<>res://.godot/imported/cef.png-792498db28f6231bdb6944891add8dde.ctex::
-cef_artifacts.png::CompressedTexture2D::3709161438338477047::1766911886::1766911888::1::::<><><>0<>0<>01c51e95c32d96365b58023b0ebba152<>res://.godot/imported/cef_artifacts.png-3bfd7e6f311a9957d38c244803581b4f.ctex::
-debug.png::CompressedTexture2D::8844721904408450281::1766911886::1766911889::1::::<><><>0<>0<>3ac2f561c209e2b2d6f53c4c09696b69<>res://.godot/imported/debug.png-53ee2bb481feaf398af0b011449b6acd.ctex::
-demos.png::CompressedTexture2D::8989201898150657327::1766911886::1766911889::1::::<><><>0<>0<>58e99e47f31d408120d135ba1107b8d4<>res://.godot/imported/demos.png-0de8e0a3d953e200bb863ecd9ff46b58.ctex::
-graphic_mode.png::CompressedTexture2D::5303868137025791352::1766911886::1766911889::1::::<><><>0<>0<>6c1b0f9ba5167808038d3d914e2cd0d7<>res://.godot/imported/graphic_mode.png-f6de359e6672b40046b3c66d6ef07252.ctex::
-ui_map.png::CompressedTexture2D::6743684967028877416::1766911886::1766911889::1::::<><><>0<>0<>4187ade889410e5012e9b05ead529272<>res://.godot/imported/ui_map.png-a04cf85df45b87b4772dd48bb437bd47.ctex::
-windows_administrator.png::CompressedTexture2D::5035637058187955908::1766911886::1766911889::1::::<><><>0<>0<>ca899ff2220983b4928fec823c19a0d0<>res://.godot/imported/windows_administrator.png-0458cad9ec8337a6a29cc33dab84e048.ctex::
-windows_path.png::CompressedTexture2D::9183020221467688390::1766911886::1766911889::1::::<><><>0<>0<>d3b698c612c6e6bebd4e826b465cfe65<>res://.godot/imported/windows_path.png-7466689d99f07b4000a96209504e35ef.ctex::
-::res://addons/gdcef/gdcef/::1766914950
-::res://addons/gdcef/gdcef/src/::1766914947
-::res://addons/gdcef/patches/::1766911887
-::res://addons/gdcef/patches/CEF/::1766911887
-::res://addons/gdcef/patches/CEF/win/::1766911887
-::res://addons/gdcef/render_process/::1766914957
-::res://addons/gdcef/render_process/src/::1766914953
-::res://addons/gdcef/tests/::1766911887
-::res://addons/gdcef/thirdparty/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/::1766914831
-CMakeLists.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-LICENSE.txt::TextFile::-1::1733356594::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1733356594::0::1::::<><><>0<>0<><>::
-README.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/bazel/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/bazel/linux/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/bazel/linux/pkg_config/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/bazel/mac/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/bazel/win/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/build/::1766914833
-CMakeCache.txt::TextFile::-1::1766914832::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/::1766914832
-CMakeOutput.log::TextFile::-1::1766914832::0::1::::<><><>0<>0<><>::
-TargetDirectories.txt::TextFile::-1::1766914832::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/3.22.1/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/3.22.1/CompilerIdC/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/3.22.1/CompilerIdC/tmp/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/3.22.1/CompilerIdCXX/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/build/CMakeFiles/CMakeTmp/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/::1766914913
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/::1766914833
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/base/::1766914835
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/::1766914861
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/test/::1766914862
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/cpptoc/views/::1766914868
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/::1766914894
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/test/::1766914898
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/ctocpp/views/::1766914906
-::res://addons/gdcef/thirdparty/cef_binary/build/libcef_dll_wrapper/CMakeFiles/libcef_dll_wrapper.dir/wrapper/::1766914912
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/__/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/__/shared/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/__/shared/browser/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/__/shared/common/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/__/shared/renderer/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/browser/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/common/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/CMakeFiles/cefclient.dir/renderer/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefclient/Release/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefsimple/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefsimple/CMakeFiles/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefsimple/CMakeFiles/cefsimple.dir/::1766914914
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefsimple/Release/::1766914918
-vk_swiftshader_icd.json::JSON::-1::1766914918::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/cefsimple/Release/locales/::1766914918
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/__/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/__/shared/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/__/shared/browser/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/__/shared/common/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/__/shared/renderer/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/CMakeFiles/ceftests.dir/views/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/ceftests/Release/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/gtest/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/gtest/CMakeFiles/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/gtest/CMakeFiles/cef_gtest.dir/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/gtest/CMakeFiles/cef_gtest.dir/src/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/gtest/CMakeFiles/cef_gtest.dir/teamcity/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/build/tests/gtest/CMakeFiles/cef_gtest.dir/teamcity/src/::1766914832
-::res://addons/gdcef/thirdparty/cef_binary/cmake/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/Debug/::1766914765
-vk_swiftshader_icd.json::JSON::-1::1733361952::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/include/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/base/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/base/internal/::1766914830
-README-TRANSFER.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/include/capi/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/capi/test/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/capi/views/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/internal/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/test/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/views/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/include/wrapper/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/::1766914830
-CMakeLists.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/base/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/cpptoc/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/cpptoc/test/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/cpptoc/views/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/ctocpp/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/ctocpp/test/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/ctocpp/views/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/libcef_dll/wrapper/::1766914830
-::res://addons/gdcef/thirdparty/cef_binary/Release/::1766914827
-vk_swiftshader_icd.json::JSON::-1::1733367783::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/Resources/::1766914829
-::res://addons/gdcef/thirdparty/cef_binary/Resources/locales/::1766914829
-::res://addons/gdcef/thirdparty/cef_binary/tests/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefclient/::1766914831
-CMakeLists.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefclient/browser/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefclient/common/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefclient/linux/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefclient/renderer/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefclient/resources/::1766918470
-logo.png::CompressedTexture2D::1320998802726622425::1733356594::1766918470::1::::<><><>0<>0<>bafba6f3af80c2266b171dfba8c6b23a<>res://.godot/imported/logo.png-964b38701b8a0a1a5dd96c64b4efc4de.ctex::
-menu_icon.1x.png::CompressedTexture2D::2892674838887297309::1733356594::1766918470::1::::<><><>0<>0<>0284e6b97d0513ded4a38342141f0ca2<>res://.godot/imported/menu_icon.1x.png-d7120c1fadd774a0fc43f8165d89d49f.ctex::
-menu_icon.2x.png::CompressedTexture2D::8240598975331132459::1733356594::1766918470::1::::<><><>0<>0<>a6b6550a2ba490f2c60e72a18c91899c<>res://.godot/imported/menu_icon.2x.png-1d01bee2b2814aa72cab591e7faac9b5.ctex::
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefsimple/::1766914831
-CMakeLists.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/tests/cefsimple/linux/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/::1766914831
-CMakeLists.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/linux/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/resources/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/resources/net/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/resources/net/data/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/resources/net/data/ssl/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/resources/net/data/ssl/certificates/::1766914831
-README-TRANSFER.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/tests/ceftests/views/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/::1766914831
-CMakeLists.txt::TextFile::-1::1733374101::0::1::::<><><>0<>0<><>::
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/include/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/include/gtest/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/src/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/teamcity/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/teamcity/include/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/gtest/teamcity/src/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/shared/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/shared/browser/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/shared/common/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/shared/renderer/::1766914831
-::res://addons/gdcef/thirdparty/cef_binary/tests/shared/resources/::1766918470
-window_icon.1x.png::CompressedTexture2D::3918491505282619306::1733356594::1766918470::1::::<><><>0<>0<>36e4de7701d05af3ce5ed2a83de3d5e4<>res://.godot/imported/window_icon.1x.png-ee41945d82dcf99aa618ce89f4fc8b6f.ctex::
-window_icon.2x.png::CompressedTexture2D::2566058119239403504::1733356594::1766918470::1::::<><><>0<>0<>6f6bcff9c2d92ca05f0bdb475559be50<>res://.godot/imported/window_icon.2x.png-adad165a9f4cafd687bd901a532cf44a.ctex::
-::res://addons/gdcef/thirdparty/godot-4.3/::1766912474
+::res://addons/::1766922739
 ::res://addons/godot_super-wakatime/::1765652914
 api_key_prompt.tscn::PackedScene::3919262858641749045::1765652914::0::1::::<><><>0<>0<><>::
 counter.tscn::PackedScene::6849360014225833986::1765652914::0::1::::<><><>0<>0<><>::
@@ -204,108 +37,20 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1765652914::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1765652914::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1765652914::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1765652914::0::1::::<>RefCounted<><>0<>0<><>::
-::res://cef_artifacts/::1766920657
-debug.log::TextFile::-1::1766920689::0::1::::<><><>0<>0<><>::
-gdcef.gdextension::GDExtension::2060621576170151911::1766914957::0::1::::<><><>0<>0<><>::
-GDCEF_VERSION.txt::TextFile::-1::1766914921::0::1::::<><><>0<>0<><>::
-vk_swiftshader_icd.json::JSON::-1::1766914918::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/::1766920667
-chrome_debug.log::TextFile::-1::1766920680::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/AutofillStates/::1766918975
-::res://cef_artifacts/cache/CertificateRevocation/::1766918975
-::res://cef_artifacts/cache/Crowd Deny/::1766918975
-::res://cef_artifacts/cache/Default/::1766920723
-::res://cef_artifacts/cache/Default/AutofillStrikeDatabase/::1766920662
-::res://cef_artifacts/cache/Default/blob_storage/::1766920662
-::res://cef_artifacts/cache/Default/blob_storage/ec14e1cb-abbc-4bf6-b7a7-a8f801ca1c7c/::1766920662
-::res://cef_artifacts/cache/Default/BudgetDatabase/::1766920662
-::res://cef_artifacts/cache/Default/Cache/::1766918975
-::res://cef_artifacts/cache/Default/Cache/Cache_Data/::1766920705
-::res://cef_artifacts/cache/Default/Cache/Cache_Data/index-dir/::1766920723
-::res://cef_artifacts/cache/Default/ClientCertificates/::1766920657
-::res://cef_artifacts/cache/Default/Code Cache/::1766918975
-::res://cef_artifacts/cache/Default/Code Cache/js/::1766920679
-::res://cef_artifacts/cache/Default/Code Cache/js/index-dir/::1766920705
-::res://cef_artifacts/cache/Default/Code Cache/wasm/::1766918975
-::res://cef_artifacts/cache/Default/Code Cache/wasm/index-dir/::1766918975
-::res://cef_artifacts/cache/Default/commerce_subscription_db/::1766920657
-::res://cef_artifacts/cache/Default/DawnGraphiteCache/::1766919882
-::res://cef_artifacts/cache/Default/DawnWebGPUCache/::1766919882
-::res://cef_artifacts/cache/Default/discounts_db/::1766920657
-::res://cef_artifacts/cache/Default/Download Service/::1766919884
-::res://cef_artifacts/cache/Default/Download Service/EntryDB/::1766920662
-::res://cef_artifacts/cache/Default/Download Service/Files/::1766919884
-::res://cef_artifacts/cache/Default/Extension Rules/::1766920029
-000003.log::TextFile::-1::1766920029::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/Extension Scripts/::1766920029
-000003.log::TextFile::-1::1766920029::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/Extension State/::1766920657
-000003.log::TextFile::-1::1766920029::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/GCM Store/::1766919884
-::res://cef_artifacts/cache/Default/GCM Store/Encryption/::1766920662
-000003.log::TextFile::-1::1766919884::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/GPUCache/::1766919882
-::res://cef_artifacts/cache/Default/Local Storage/::1766918975
-::res://cef_artifacts/cache/Default/Local Storage/leveldb/::1766920657
-000003.log::TextFile::-1::1766920683::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/optimization_guide_hint_cache_store/::1766920662
-::res://cef_artifacts/cache/Default/parcel_tracking_db/::1766920657
-::res://cef_artifacts/cache/Default/PersistentOriginTrials/::1766920657
-::res://cef_artifacts/cache/Default/Segmentation Platform/::1766918975
-::res://cef_artifacts/cache/Default/Segmentation Platform/SegmentInfoDB/::1766920657
-::res://cef_artifacts/cache/Default/Segmentation Platform/SignalDB/::1766920657
-::res://cef_artifacts/cache/Default/Segmentation Platform/SignalStorageConfigDB/::1766920657
-::res://cef_artifacts/cache/Default/Session Storage/::1766920658
-000003.log::TextFile::-1::1766920683::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/Shared Dictionary/::1766919111
-::res://cef_artifacts/cache/Default/Shared Dictionary/cache/::1766920671
-::res://cef_artifacts/cache/Default/Shared Dictionary/cache/index-dir/::1766920692
-::res://cef_artifacts/cache/Default/shared_proto_db/::1766920657
-000003.log::TextFile::-1::1766920657::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/shared_proto_db/metadata/::1766920657
-000003.log::TextFile::-1::1766920678::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/Site Characteristics Database/::1766920657
-000003.log::TextFile::-1::1766920567::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/Sync Data/::1766918975
-::res://cef_artifacts/cache/Default/Sync Data/LevelDB/::1766920657
-000003.log::TextFile::-1::1766920029::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/VideoDecodeStats/::1766920678
-::res://cef_artifacts/cache/Default/WebStorage/::1766920678
-::res://cef_artifacts/cache/Default/WebStorage/1/::1766920679
-::res://cef_artifacts/cache/Default/WebStorage/1/CacheStorage/::1766920680
-index.txt::TextFile::-1::1766920679::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Default/WebStorage/1/IndexedDB/::1766920678
-::res://cef_artifacts/cache/Default/WebStorage/1/IndexedDB/indexeddb.leveldb/::1766920678
-000003.log::TextFile::-1::1766920702::0::1::::<><><>0<>0<><>::
-::res://cef_artifacts/cache/Dictionaries/::1766919882
-::res://cef_artifacts/cache/FileTypePolicies/::1766918975
-::res://cef_artifacts/cache/FirstPartySetsPreloaded/::1766919884
-::res://cef_artifacts/cache/GraphiteDawnCache/::1766919111
-::res://cef_artifacts/cache/GrShaderCache/::1766920692
-::res://cef_artifacts/cache/hyphen-data/::1766918975
-::res://cef_artifacts/cache/MEIPreload/::1766918975
-::res://cef_artifacts/cache/OnDeviceHeadSuggestModel/::1766918975
-::res://cef_artifacts/cache/OptimizationHints/::1766918975
-::res://cef_artifacts/cache/OriginTrials/::1766918975
-::res://cef_artifacts/cache/PKIMetadata/::1766918975
-::res://cef_artifacts/cache/PrivacySandboxAttestationsPreloaded/::1766918975
-::res://cef_artifacts/cache/Safe Browsing/::1766918975
-::res://cef_artifacts/cache/SafetyTips/::1766918975
-::res://cef_artifacts/cache/segmentation_platform/::1766918975
-::res://cef_artifacts/cache/ShaderCache/::1766918975
-::res://cef_artifacts/cache/SSLErrorAssistant/::1766918975
-::res://cef_artifacts/cache/Subresource Filter/::1766918975
-::res://cef_artifacts/cache/Subresource Filter/Unindexed Rules/::1766918975
-::res://cef_artifacts/cache/TpcdMetadata/::1766918975
-::res://cef_artifacts/cache/TrustTokenKeyCommitments/::1766918975
-::res://cef_artifacts/cache/WidevineCdm/::1766918975
-::res://cef_artifacts/cache/ZxcvbnData/::1766918975
-::res://cef_artifacts/locales/::1766914918
+::res://extension/::1767083645
+manifest.json::JSON::-1::1767021143::0::1::::<><><>0<>0<><>::
+::res://extension/game/::1767083662
+index.144x144.png::CompressedTexture2D::3413707188772430421::1767083635::1767083840::1::::<><><>0<>0<>03290e269cc33aea7cf1f549956dad98<>res://.godot/imported/index.144x144.png-7e12785a4bda1edcea9b7ea3d8479f98.ctex::
+index.180x180.png::CompressedTexture2D::2283389733438195474::1767083635::1767083841::1::::<><><>0<>0<>699559ec54048723dad9e80212cfde7b<>res://.godot/imported/index.180x180.png-f93bd54f0066031a6c5a3f608782d57f.ctex::
+index.512x512.png::CompressedTexture2D::6277959702642321280::1767083635::1767083841::1::::<><><>0<>0<>0c08848667060b80b232effd7e0f6fdb<>res://.godot/imported/index.512x512.png-281f33170c4b9ac194aefed73071356a.ctex::
+index.apple-touch-icon.png::CompressedTexture2D::1054216798606004025::1767083635::1767083841::1::::<><><>0<>0<>327b9e3cd5bcd6d614f1983684b689c2<>res://.godot/imported/index.apple-touch-icon.png-794bb585719a31c96b5d50fb12d47108.ctex::
+index.icon.png::CompressedTexture2D::4986527529725573754::1767083635::1767083840::1::::<><><>0<>0<>f2109c8743d348d11f0e5bc4658b8cfd<>res://.godot/imported/index.icon.png-537b012784371ceb83543caabb253eb5.ctex::
+index.png::CompressedTexture2D::1043665227519781014::1767083635::1767083841::1::::<><><>0<>0<>a158fc19cdf6727e65a6672aa5e75af7<>res://.godot/imported/index.png-f3f3e38fa85bd8f3a811696381754d63.ctex::
 ::res://images/::1765652917
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1765652914::1765652917::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D::7932361111412089001::1765652914::1765652916::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D::3122668444336440389::1765652914::1765652915::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
-::res://tactic-assets/::1766853036
+::res://tactic-assets/::1766999558
 0.png::CompressedTexture2D::3004722674700502646::1765654636::1765654637::1::::<><><>0<>0<>fc24444667db25921fa0f86f3c0ea716<>res://.godot/imported/0.png-746eaf2f8adcc065c2e6ac444d72e653.ctex::
 1.png::CompressedTexture2D::9210624089438747208::1765654636::1765654637::1::::<><><>0<>0<>c39f090b4f8101149bf9b77ccffaee73<>res://.godot/imported/1.png-d7a950ff8e3627a4542db757a4e9cb76.ctex::
 2.png::CompressedTexture2D::9019889074647259633::1765654636::1765654637::1::::<><><>0<>0<>6d0d784daf70426b5d194e7976ab2937<>res://.godot/imported/2.png-8ea5a43a20ae4e749e0c4e982059a06b.ctex::
@@ -320,6 +65,7 @@ back_btn.png::CompressedTexture2D::4546045903052032247::1766852918::1766853036::
 back_btn_2.png::CompressedTexture2D::6265772260358018019::1766853026::1766853036::1::::<><><>0<>0<>21e275524d70e6a45fe0537283f29a15<>res://.godot/imported/back_btn_2.png-1ac7ff315c6f295db5564a19920ef4e2.ctex::
 black_dot.png::CompressedTexture2D::4815541039636805444::1766219073::1766279418::1::::<><><>0<>0<>d10255819f361204d25203f975b294ca<>res://.godot/imported/black_dot.png-86ee88688d6650a5066e6826adadfd93.ctex::
 black_line.png::CompressedTexture2D::6791236629632384579::1766219202::1766279418::1::::<><><>0<>0<>38aba9d42bac7687dc386f20475283c1<>res://.godot/imported/black_line.png-bdc54cbae91042ff24e41c05f35ebc35.ctex::
+blue_box.png::CompressedTexture2D::6967131606935218963::1766999530::1766999558::1::::<><><>0<>0<>c49e8db1dcc0a8ec28e4ed820528ca84<>res://.godot/imported/blue_box.png-4b270e1441415537f0dc346d1ee826b1.ctex::
 blue_dot.png::CompressedTexture2D::6759154938730017843::1766219124::1766279418::1::::<><><>0<>0<>7d1d657af2b65f9195059aaf2fd1c683<>res://.godot/imported/blue_dot.png-475d0a2099a61fd0b5b95652f370122b.ctex::
 blue_faded.png::CompressedTexture2D::5007586460557508117::1766665974::1766665977::1::::<><><>0<>0<>35b7d4dca4774e2964b760c7e66b27d4<>res://.godot/imported/blue_faded.png-f3ef110cf01aca3929fb54426ca40377.ctex::
 blue_line.png::CompressedTexture2D::8707846511615248552::1766219175::1766279418::1::::<><><>0<>0<>c95b553d6ff76fc83af0f690df2eb0ab<>res://.godot/imported/blue_line.png-b6561d3db1b1be9c6199004a5f76debc.ctex::
@@ -339,6 +85,7 @@ mute_btn.png::CompressedTexture2D::323317135361331719::1766845689::1766845699::1
 o-board.png::CompressedTexture2D::4444014946914256914::1765727985::1765728114::1::::<><><>0<>0<>2fbace548a71fcb4a0b6cfae4d8adb4e<>res://.godot/imported/o-board.png-59fe24281a07af01e2bafef3fc5685ac.ctex::
 o-hover.png::CompressedTexture2D::1979845139496926093::1765728059::1765728236::1::::<><><>0<>0<>2051b2d6330e572622a7bd592ade4f23<>res://.godot/imported/o-hover.png-7996bac00ae9e1905221592655e6dc41.ctex::
 oturn.png::CompressedTexture2D::431686918747857643::1765654636::1765654637::1::::<><><>0<>0<>cd86b93f78dfef71844249410d0d0433<>res://.godot/imported/oturn.png-948d457badd86295f147af35df7a65ce.ctex::
+pink_box.png::CompressedTexture2D::5498756623848737268::1766999552::1766999558::1::::<><><>0<>0<>155489556b94971ca66e45e1d99fa38b<>res://.godot/imported/pink_box.png-c118438fc5d5b1714bae975a8f0143d3.ctex::
 pink_dot.png::CompressedTexture2D::6205425356751596955::1766219094::1766279418::1::::<><><>0<>0<>d03eff8ce2c2629b0960a9388aa8145a<>res://.godot/imported/pink_dot.png-ef6c76ea50ac98cdd90061543a6d336f.ctex::
 pink_faded.png::CompressedTexture2D::1313641421831711662::1766665826::1766665830::1::::<><><>0<>0<>8e7b1a800b84067344cbd84de74c3bc0<>res://.godot/imported/pink_faded.png-79f0ba54aa7bb2df76b22987c3bdd8bf.ctex::
 pink_line.png::CompressedTexture2D::2873004338118740662::1766219148::1766279418::1::::<><><>0<>0<>76825685f8a0257ca4ab6d11e4e070cf<>res://.godot/imported/pink_line.png-46692b836a63457a625928e369c92313.ctex::

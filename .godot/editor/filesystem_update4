@@ -1,12 +1,3 @@
-res://main.gd
+res://node.gd
 res://dot_and_boxes.tscn
 res://dot_and_boxes.gd
-res://node.tscn
-res://tuto.gd
-res://tuto.tscn
-res://addons/gdcef/README.md
-res://cef_manager.gd
-res://addons/gdcef/demos/README.md
-res://node.gd
-res://main.tscn
-res://audio_manager.gd

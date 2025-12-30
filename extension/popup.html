@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { 
+      width: 360px; 
+      height: 480px; 
+      margin: 0;
+      padding: 0;
+      background: #222;
+      color: white;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    #status {
+      padding: 10px;
+      background: #333;
+      text-align: center;
+      font-size: 14px;
+    }
+    #game {
+      width: 100%;
+      height: calc(100% - 40px);
+      border: none;
+    } 
+  </style>
+</head>
+<body>
+  <div id="status">Loading game...</div>
+  <iframe id="game" src="game/index.html"></iframe>
+  <script src="popup.js"></script>
+</body>
+</html>

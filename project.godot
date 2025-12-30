@@ -11,18 +11,19 @@ config_version=5
 [application]
 
 config/name="tactics"
+run/main_scene="uid://cywcjmppo84ny"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
-CEFManager="res://cef_manager.gd"
 AudioManager="*res://audio_manager.gd"
 
 [display]
 
 window/size/viewport_width=720
 window/size/viewport_height=960
+window/stretch/mode="viewport"
 window/handheld/orientation=1
 mouse_cursor/custom_image="uid://ck231p882p661"
 mouse_cursor/custom_image_hotspot=Vector2(10, 5)
@@ -30,7 +31,7 @@ mouse_cursor/tooltip_position_offset=Vector2(20, 20)
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdcef/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 
 [rendering]
 

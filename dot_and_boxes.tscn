@@ -1,9 +1,12 @@
-[gd_scene load_steps=38 format=3 uid="uid://dq7y1j0g01wqk"]
+[gd_scene load_steps=41 format=3 uid="uid://dq7y1j0g01wqk"]
 
 [ext_resource type="Script" uid="uid://cxhbl501xx654" path="res://dot_and_boxes.gd" id="1_yowkn"]
 [ext_resource type="Texture2D" uid="uid://dbmafr50kypao" path="res://white_bg.png" id="2_clgpa"]
 [ext_resource type="Texture2D" uid="uid://vih0cdioiw47" path="res://tactic-assets/border.png" id="2_rld3d"]
+[ext_resource type="Texture2D" uid="uid://cklvyoi1ojrce" path="res://tactic-assets/pink_box.png" id="3_b2ap6"]
 [ext_resource type="Texture2D" uid="uid://dfb8h7uyoi0p5" path="res://tactic-assets/skeleton_frames.png" id="3_pj8ac"]
+[ext_resource type="Texture2D" uid="uid://diy6qig3p7hsi" path="res://tactic-assets/9.png" id="4_fi8qh"]
+[ext_resource type="Texture2D" uid="uid://c6i6v0pa0n28n" path="res://tactic-assets/blue_box.png" id="4_pgc76"]
 [ext_resource type="Texture2D" uid="uid://dyt0li2aai66k" path="res://tactic-assets/i_btn.png" id="5_6matu"]
 [ext_resource type="Script" uid="uid://gu2mmnqj6n3x" path="res://htp_tab.gd" id="5_mi27q"]
 [ext_resource type="Texture2D" uid="uid://bdrgf16ffocmm" path="res://tactic-assets/minimize_btn.png" id="7_2khtf"]
@@ -467,15 +470,37 @@ scale = Vector2(7.836735, 7.7538466)
 texture = ExtResource("2_rld3d")
 metadata/_edit_lock_ = true
 
-[node name="UI" type="Node2D" parent="."]
+[node name="scoreboard" type="Node2D" parent="."]
 
-[node name="score board" type="Node2D" parent="UI"]
+[node name="blue" type="Sprite2D" parent="scoreboard"]
+texture_filter = 1
+position = Vector2(287, 102.00001)
+scale = Vector2(5, 5)
+texture = ExtResource("3_b2ap6")
+metadata/_edit_lock_ = true
 
-[node name="Sprite2D" type="Sprite2D" parent="UI/score board"]
+[node name="Sprite2D2" type="Sprite2D" parent="scoreboard/blue"]
+position = Vector2(-2.4000053, -1.199997)
+texture = ExtResource("4_fi8qh")
 
-[node name="Sprite2D2" type="Sprite2D" parent="UI/score board"]
+[node name="Sprite2D3" type="Sprite2D" parent="scoreboard/blue"]
+position = Vector2(2.5999985, -1.2000008)
+texture = ExtResource("4_fi8qh")
 
-[node name="Sprite2D" type="Sprite2D" parent="UI"]
+[node name="pink" type="Sprite2D" parent="scoreboard"]
+texture_filter = 1
+position = Vector2(462.00006, 102.00001)
+scale = Vector2(5, 5)
+texture = ExtResource("4_pgc76")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="scoreboard/pink"]
+position = Vector2(-2.000023, -1.3999958)
+texture = ExtResource("4_fi8qh")
+
+[node name="Sprite2D3" type="Sprite2D" parent="scoreboard/pink"]
+position = Vector2(3.199974, -1.5999966)
+texture = ExtResource("4_fi8qh")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 layer = -1
