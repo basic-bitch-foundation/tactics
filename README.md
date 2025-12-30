@@ -17,7 +17,7 @@ two classic strategy games that make you think but don't suck you in for hours:
 both games have ai opponents(kindly wait for response it might some time ) that actually think  so it's not boring. games are quick, you get your mental reset, then back to work.
 
 ![Tic Tac Toe Game](https://github.com/basic-bitch-foundation/tactics/blob/main/tactic-assets/tic_tac_toe.png?raw=true)
-![Dots and Boxes Game](https://github.com/basic-bitch-foundation/tactics/blob/main/tactic-assets/dot_n_box.png?raw=true)
+![Dots and Boxes Game](https://github.com/basic-bitch-foundation/tactics/blob/main/tactic-assets/Dot_n_box.png?raw=true)
 
 ## why this exists
 
@@ -71,7 +71,7 @@ if you want to modify or build yourself:
 
 1. clone the repo
 ```bash
-git clone https://github.com/yourusername/tactics.git
+git clone https://github.com/basic-bitch-foundation/tactics/tactics.git
 cd tactics
 ```
 
